@@ -26,6 +26,10 @@ $ typst compile ./examples/main.typ --root .
 
 And the PDF file `./examples/main.pdf` will be generated.
 
+## Development
+
+I use [Typship](https://github.com/sjfhsjfh/typship) to publish this package to the Typst package registry.
+
 ## License
 
 Licensed under the [MIT License](LICENSE).
