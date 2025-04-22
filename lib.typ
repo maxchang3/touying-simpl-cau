@@ -24,12 +24,6 @@
   set text(lang: lang, font: font)
   set heading(numbering: numbly("{1}.", default: "1.1"))
 
-  // show: if lang == "zh" {
-  //   import "@preview/cuti:0.3.0": show-cn-fakebold
-  //   show-cn-fakebold
-  // } else {
-  //   it => it
-  // }
   show: stargazer-theme.with(
     aspect-ratio: aspect-ratio,
     config-info(logo: image("assets/CAU_logo.svg")),
