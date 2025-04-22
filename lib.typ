@@ -10,7 +10,7 @@
 /// 
 /// - aspect-ratio (str): 纵横比 
 /// - lang (str):  语言
-/// - font (list): 字体覆盖列表
+/// - font (array): 字体覆盖列表
 /// - use-background (bool): 是否使用背景图 
 /// -> 
 #let cau-theme(
