@@ -4,13 +4,13 @@ Inspired and modified from [Touying Slide Theme for Beihang University](https://
 
 ## Use as Typst Template Package
 
-Use `typst init @preview/touying-cau` to create a new project with this theme.
+Use `typst init @preview/touying-simpl-cau` to create a new project with this theme.
 
 ```console
-$ typst init @preview/touying-cau
-Successfully created new project from @preview/touying-cau:<latest>
+$ typst init @preview/touying-simpl-cau
+Successfully created new project from @preview/touying-simpl-cau:<latest>
 To start writing, run:
-> cd touying-cau
+> cd touying-simpl-cau
 > typst watch main.typ
 ```
 
