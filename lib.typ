@@ -2,14 +2,22 @@
  *  Stargazer theme - adapted for CAU
  * */
 
-#import "@preview/touying:0.6.0": *
+#import "@preview/touying:0.6.1": *
 #import "@preview/numbly:0.1.0": numbly
 #import themes.stargazer: *
 
+/// 模板的核心类，规范了文档的格式。
+/// 
+/// - aspect-ratio (str): 纵横比 
+/// - lang (str):  语言
+/// - font (list): 字体覆盖列表
+/// - useBackground (bool): 是否使用背景图 
+/// -> 
 #let cau-theme(
   aspect-ratio: "16-9",
   lang: "en",
   font: ("Libertinus Serif", "Source Han Sans SC", "Noto Sans CJK SC", "SimHei", "Heiti SC", "STHeiti"),
+  useBackground: true,
   ..args,
   body,
 ) = {
@@ -22,7 +30,6 @@
   // } else {
   //   it => it
   // }
-
   show: stargazer-theme.with(
     aspect-ratio: aspect-ratio,
     config-info(logo: image("assets/CAU_logo.svg")),
@@ -35,12 +42,16 @@
       neutral-darkest: rgb("#000000"),
     ),
     config-page(
-      background: place(
-        center + horizon,
-        dx: 47%,
-        dy: 7%,
-        image("assets/Gate.svg", width: 75%),
-      ),
+      background: if useBackground {
+        place(
+          center + horizon,
+          dx: 47%,
+          dy: 7%,
+          image("assets/Gate.svg", width: 75%),
+        )
+      } else {
+        none
+      },
     ),
     ..args,
   )
