@@ -16,7 +16,7 @@
   config-info(
     title: [Typst Slide Theme for Beihang University Based on Touying],
     subtitle: [基于 Touying 的中国农业大学 Typst 幻灯片模板 \ 源自北京航空航天大学模板],
-    author: [Yip Coekjan],
+    author: [Yip Coekjan, Max Chang],
     date: datetime.today(),
     institution: [中国农业大学],
   ),
