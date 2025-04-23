@@ -1,4 +1,4 @@
-#import "@preview/touying:0.6.0": *
+#import "@preview/touying:0.6.1": *
 #import "@preview/touying-simpl-cau:0.1.0": *
 
 // Specify `lang` and `font` for the theme if needed.
