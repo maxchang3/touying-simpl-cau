@@ -58,7 +58,10 @@ The compiled presentation will be available at `./examples/main.pdf`.
 
 ## Development
 
-This package is maintained using [Typship](https://github.com/sjfhsjfh/typship) for publishing to the Typst package registry.
+This package is maintained using:
+
+- [Typship](https://github.com/sjfhsjfh/typship) - for publishing to the Typst package registry.
+- [Typst Upgrade](https://github.com/Coekjan/typst-upgrade) - for upgrading Typst packages.
 
 ## License
 
