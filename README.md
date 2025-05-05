@@ -1,10 +1,35 @@
 # Touying Slide Theme for China Agricultural University
 
-Inspired and modified from [Touying Slide Theme for Beihang University](https://github.com/Coekjan/touying-buaa)
+A slide theme for China Agricultural University based on the [Touying](https://github.com/touying-typ/touying) presentation framework. Modified from the [Touying Slide Theme for Beihang University](https://github.com/Coekjan/touying-buaa).
 
-## Use as Typst Template Package
+## Usage
 
-Use `typst init @preview/touying-simpl-cau` to create a new project with this theme.
+### Import the theme in existing projects
+
+```typst
+#import "@preview/touying:0.6.1": *
+#import "@preview/touying-simpl-cau:0.2.0": *
+
+#show: cau-theme.with(
+    config-info(
+        title: [Touying for CAU: Customize Your Slide Title Here],
+        subtitle: [Customize Your Slide Subtitle Here],
+        author: [Authors],
+        date: datetime.today(),
+        institution: [China Agricultural University],
+    ),
+)
+
+#title-slide() // Create a title slide
+
+#outline-slide() // Create an outline slide
+
+// Add your content here
+```
+
+### Create a new project with `typst init`
+
+Quickly scaffold a new presentation with:
 
 ```console
 $ typst init @preview/touying-simpl-cau
@@ -18,17 +43,17 @@ To start writing, run:
 
 See [examples](examples) for more details.
 
-You can compile the examples by yourself.
+Compile the examples yourself:
 
 ```console
 $ typst compile ./examples/main.typ --root .
 ```
 
-And the PDF file `./examples/main.pdf` will be generated.
+The compiled presentation will be available at `./examples/main.pdf`.
 
 ## Development
 
-I use [Typship](https://github.com/sjfhsjfh/typship) to publish this package to the Typst package registry.
+This package is maintained using [Typship](https://github.com/sjfhsjfh/typship) for publishing to the Typst package registry.
 
 ## License
 
