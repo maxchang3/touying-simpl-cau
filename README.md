@@ -1,6 +1,11 @@
 # Touying Slide Theme for China Agricultural University
+[![Preview Online](https://img.shields.io/badge/Preview_Online-gray?logo=typst)](https://maxchang3.github.io/touying-simpl-cau/) <a href="https://typst.app/universe/package/touying-simpl-cau">
+    <img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Ftypst.app%2Funiverse%2Fpackage%2Ftouying-simpl-cau&query=%2Fhtml%2Fbody%2Fdiv%2Fmain%2Fdiv%5B2%5D%2Faside%2Fsection%5B2%5D%2Fdl%2Fdd%5B3%5D&logo=typst&label=Universe&color=%23239DAE" />
+</a>
 
-A slide theme for China Agricultural University based on the [Touying](https://github.com/touying-typ/touying) presentation framework. Modified from the [Touying Slide Theme for Beihang University](https://github.com/Coekjan/touying-buaa).
+A slide theme for China Agricultural University based on the [Touying](https://github.com/touying-typ/touying) presentation framework. 
+
+Modified from the [Touying Slide Theme for Beihang University](https://github.com/Coekjan/touying-buaa).
 
 ## Usage
 
