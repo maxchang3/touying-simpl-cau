@@ -29,6 +29,7 @@ Modified from the [Touying Slide Theme for Beihang University](https://github.co
         date: datetime.today(),
         institution: [China Agricultural University],
     ),
+    // use-background: false, // Uncomment to disable background image
 )
 
 #title-slide() // Create a title slide
