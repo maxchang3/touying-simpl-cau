@@ -1,6 +1,6 @@
 [package]
 name = "touying-simpl-cau"
-version = "0.2.0"
+version = "0.2.1"
 entrypoint = "lib.typ"
 authors = ["Yip Coekjan <cn_yzr@qq.com>", "Max Chang <maxcfoo@gmail.com>"]
 license = "MIT"

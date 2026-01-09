@@ -19,7 +19,7 @@ Modified from the [Touying Slide Theme for Beihang University](https://github.co
 
 ```typst
 #import "@preview/touying:0.6.1": *
-#import "@preview/touying-simpl-cau:0.2.0": *
+#import "@preview/touying-simpl-cau:0.2.1": *
 
 #show: cau-theme.with(
     config-info(
