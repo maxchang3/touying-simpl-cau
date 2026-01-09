@@ -10,7 +10,6 @@
 #show: cau-theme.with(
   // Lang and font configuration
   lang: "zh",
-  font: ("Libertinus Serif", "Source Han Sans SC", "Source Han Sans"),
 
   // Basic information
   config-info(
